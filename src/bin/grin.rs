@@ -296,8 +296,8 @@ fn main() {
 
 /// Handles the server part of the command line, mostly running, starting and
 /// stopping the Grin blockchain server. Processes all the command line
-/// arguments
-/// to build a proper configuration and runs Grin with that configuration.
+/// arguments to build a proper configuration and runs Grin with that
+/// configuration.
 fn server_command(server_args: &ArgMatches, global_config: GlobalConfig) {
 	info!(LOGGER, "Starting the Grin server...");
 
