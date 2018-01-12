@@ -273,7 +273,7 @@ fn main() {
 			client_command(client_args, global_config);
 		}
 
-		// client commands and options
+		// wallet commands and options
 		("wallet", Some(wallet_args)) => {
 			wallet_command(wallet_args, global_config);
 		}
