@@ -74,7 +74,8 @@ fn main() {
 	// global config file
 
 	// This will return a global config object,
-	// which will either contain defaults for all // of the config structures or a
+	// which will either contain defaults for all
+	// of the config structures or a
 	// configuration
 	// read from a config file
 
